@@ -203,7 +203,7 @@ checkbox{
     display: none;
 }
 .dummy-block {
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -221,9 +221,34 @@ li {
 #test-form{
     display: none;
 }
-
-@media (max-width: 1200px) { /* for phones and small tablets */
+@media (max-width: 1200px) {
     .carousel-inner img {
         display: none;
     }
+    #myCarousel{
+        display: none;
+    }
+}
+.navbar-toggler {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.navbar-toggler-icon {
+    margin-top: 5px;
+}
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.logo {
+    width: 150px;
+    height: 75px;
 }
